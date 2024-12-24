@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>NumberServlet</servlet-name>
+        <servlet-class>com.example.NumberServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>NumberServlet</servlet-name>
+        <url-pattern>/exe</url-pattern>
+    </servlet-mapping>
+</web-app>
